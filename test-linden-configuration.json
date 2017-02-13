@@ -1,0 +1,10 @@
+{
+    "dir": "./testDir",
+    "cases": [
+        {
+            "name": "testName",
+            "url": "testUrl",
+            "viewport": { "width": 900, "height": 768 }
+        }
+    ]
+}
