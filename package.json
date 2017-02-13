@@ -1,0 +1,22 @@
+{
+  "name": "linden-configuration-parser",
+  "version": "0.1.0",
+  "description": "Configuration parser module for linden visual regression tool",
+  "author": "Gabor Szalay <yaastreet@gmail.com> (https://github.com/GaborSzalay)",
+  "homepage": "https://github.com/GaborSzalay/linden-configuration-parser",
+  "repository": "gaborszalay/linden-configuration-parser",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "jest",
+    "prepush": "npm run lint && npm run test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "jest": "^18.1.0"
+  }
+}
