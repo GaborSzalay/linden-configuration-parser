@@ -2,7 +2,7 @@
 
 const fs            = require('fs');
 const path          = require('path');
-const helper        = require('./helper');
+const helper        = require('linden-fs-helper');
 const isNotEmpty    = require('is-not-empty');
 
 function validateCase(testCase) {
@@ -30,7 +30,7 @@ function parseConfiguration(config) {
         tempConfig.cases.push(testCase);
     });
 
-    let savePathRoot = path.join(helper.getCWD(), tempConfig.dir);
+    let savePathRoot = path.join(tempConfig.cwd, tempConfig.dir);
     let savePath     = path.join(savePathRoot, tempConfig.timestamp);
 
     if (!helper.folderExists(savePathRoot)) {
