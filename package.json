@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "linden-fs-helper": "file:../linden-fs-helper/linden-fs-helper-0.1.0.tgz",
+    "linden-fs-helper": "GaborSzalay/linden-fs-helper",
     "is-not-empty": "^0.1.0"
   },
   "devDependencies": {
