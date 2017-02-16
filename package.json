@@ -7,7 +7,8 @@
   "repository": "gaborszalay/linden-configuration-parser",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "helper.js"
   ],
   "scripts": {
     "lint": "eslint index.js",
@@ -15,8 +16,13 @@
     "prepush": "npm run lint && npm run test"
   },
   "license": "MIT",
+  "dependencies": {
+    "linden-fs-helper": "GaborSzalay/linden-fs-helper",
+    "is-not-empty": "^0.1.0"
+  },
   "devDependencies": {
     "eslint": "^3.14.1",
-    "jest": "^18.1.0"
+    "jest": "^18.1.0",
+    "mockdate": "2.0.1"
   }
 }
