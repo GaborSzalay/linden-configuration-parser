@@ -20,7 +20,7 @@
     "is-not-empty": "^0.1.0"
   },
   "devDependencies": {
-    "eslint": "^3.14.1",
+    "eslint": "^6.5.1",
     "jest": "^18.1.0",
     "mockdate": "2.0.1"
   }
